@@ -1,0 +1,59 @@
+html,body{
+    overflow-x: hidden;
+}
+
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li >a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background-color: transparent;
+    color: #5bc0de;
+    outline: medium none;
+}
+
+.item > img {
+    width: 100%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.affix.navbar-default {
+    background: rgba(200, 154, 105, 0.5) none repeat scroll 0 0;
+    transition: all 0.9s ease 0s;
+}
+
+.carousel-caption{
+    bottom: 36%;
+}
+
+.carousel-inner .item{
+    height: 100vh;
+}
+
+.carousel-control.left{
+    background-image: none;
+}
+
+
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-caption > h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+.carousel-caption > p{
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.carousel-caption.left{
+    background-image: none;
+}
