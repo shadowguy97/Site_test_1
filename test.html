@@ -44,7 +44,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -63,21 +63,21 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
+                <div class="item active" id="0">
                     <img src="img/970x647/01.jpg" alt="">
                     <div class="carousel-caption">
                         <h2>Web Design Layout</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nulla, temporibus? Impedit minima nam voluptates.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" id="1">
                     <img src="img/970x647/02.jpg" alt="">
                     <div class="carousel-caption">
                         <h2>Web test 2</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi illum nulla possimus voluptates voluptatibus. Debitis.</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" id="2">
                     <img src="img/970x647/03.jpg" alt="">
                     <div class="carousel-caption">
                         <h2>Web test 3</h2>
@@ -98,6 +98,7 @@
         </div>
     </div>
 </header>
+
 <section class="about-area" id="about">
     <div class="container">
         <div class="row">
@@ -217,5 +218,49 @@
         </div>
     </div>
 </section>
+
+<section class="contact-area" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-header text-center">
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur earum eos error, excepturi nam rerum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 well">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="mail">Email address</label>
+                        <input type="email" class="form-control" id="mail" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea type="text" class="form-control" id="message" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-text text-center">
+                    <p>&copy; All Right Reserved 2017</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
