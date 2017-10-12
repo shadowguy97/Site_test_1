@@ -57,3 +57,10 @@ html,body{
 .carousel-caption.left{
     background-image: none;
 }
+
+#awesome_vidoe{
+    min-width: 100%;
+    max-width: inherit;
+    background-image: url("/back.png") no-repeat;
+    background-size: contain;
+}
